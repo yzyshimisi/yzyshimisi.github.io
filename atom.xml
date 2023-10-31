@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  <subtitle>和有趣的人做尽有趣的事情</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2023-10-31T09:08:00.958Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>yzyshimisi</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>mdTest</title>
+    <link href="http://example.com/2023/10/27/mdTest/"/>
+    <id>http://example.com/2023/10/27/mdTest/</id>
+    <published>2023-10-27T07:39:41.000Z</published>
+    <updated>2023-10-31T09:08:00.958Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World666</title>
+    <link href="http://example.com/2023/10/27/hello-world/"/>
+    <id>http://example.com/2023/10/27/hello-world/</id>
+    <published>2023-10-27T04:45:04.401Z</published>
+    <updated>2023-10-27T05:32:13.331Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
