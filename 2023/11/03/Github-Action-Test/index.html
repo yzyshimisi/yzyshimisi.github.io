@@ -20,17 +20,19 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="个人博客">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/archives/index.html">
+  <meta name="description" content="待优化问题 每次部署 Hexo 都需要运行 hexo cl &amp; hexo g &amp; hexo d 指令三件套完成推送到远程仓库，随着文章越来越多，编译的时间也会越来越长，通过 Github Actions，我们只需要在每次完成博客的编写或修改以后，将改动直接 push 到远程仓库，之后的编译部署的工作统统交给 CI 来完成即可。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Github Action Test">
+<meta property="og:url" content="http://example.com/2023/11/03/Github-Action-Test/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="个人博客">
+<meta property="og:description" content="待优化问题 每次部署 Hexo 都需要运行 hexo cl &amp; hexo g &amp; hexo d 指令三件套完成推送到远程仓库，随着文章越来越多，编译的时间也会越来越长，通过 Github Actions，我们只需要在每次完成博客的编写或修改以后，将改动直接 push 到远程仓库，之后的编译部署的工作统统交给 CI 来完成即可。">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-11-03T06:35:13.000Z">
+<meta property="article:modified_time" content="2023-11-03T06:36:27.503Z">
 <meta property="article:author" content="yzyshimisi">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/archives/">
+<link rel="canonical" href="http://example.com/2023/11/03/Github-Action-Test/">
 
 
 <script id="page-configurations">
@@ -38,12 +40,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>归档 | Hexo</title>
+  <title>Github Action Test | Hexo</title>
   
 
 
@@ -143,90 +145,97 @@
         <div class="content-wrap">
           
 
-          <div class="content archive">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 3 篇日志。 继续努力。</span>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/11/03/Github-Action-Test/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="yzyshimisi">
+      <meta itemprop="description" content="个人博客">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Github Action Test
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2023-11-03 14:35:13 / 修改时间：14:36:27" itemprop="dateCreated datePublished" datetime="2023-11-03T14:35:13+08:00">2023-11-03</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2023</span>
+        <h1>待优化问题</h1>
+<p>每次部署 Hexo 都需要运行 hexo cl &amp; hexo g &amp; hexo d 指令三件套完成推送到远程仓库，随着文章越来越多，编译的时间也会越来越长，通过 Github Actions，我们只需要在每次完成博客的编写或修改以后，将改动直接 push 到远程仓库，之后的编译部署的工作统统交给 CI 来完成即可。</p>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+    
+    
+    
+        
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2023-11-03T14:35:13+08:00"
-              content="2023-11-03">
-          11-03
-        </time>
-      </div>
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2023/11/03/Github-Action-Test/" itemprop="url">
-            <span itemprop="name">Github Action Test</span>
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
           </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2023-10-27T15:39:41+08:00"
-              content="2023-10-27">
-          10-27
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2023/10/27/mdTest/" itemprop="url">
-            <span itemprop="name">mdTest</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2023-10-27T12:45:04+08:00"
-              content="2023-10-27">
-          10-27
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2023/10/27/hello-world/" itemprop="url">
-            <span itemprop="name">Hello World666</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-
+        </div>
     </div>
   </div>
-  
-  
-  
 
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2023/10/27/mdTest/" rel="prev" title="mdTest">
+      <i class="fa fa-chevron-left"></i> mdTest
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
 
@@ -279,6 +288,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">1.</span> <span class="nav-text">待优化问题</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
